@@ -1,0 +1,59 @@
+.container1 {
+    position: relative;
+    display: inline-block;
+}
+
+.container1 img {
+    display: block;
+    width: 40vw;
+    height: 50vh;
+    max-width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    cursor: pointer;
+}
+#form{
+    max-width: 500px;
+    border: 2px solid #f69b10;
+    border-radius: 7px;
+    color: white;
+}
+#workout > .form-control{
+    background-color: #2b2f32;
+}
+#workout >.form-group input{
+    color: white;
+    background-color: gray ;
+    cursor: pointer;
+
+}
+input.form-control:focus {
+    background-color: #2b2f32;
+    color: white;
+}
+
+.custom-btn {
+    background-color: #f69b10; 
+    color: #000; 
+}
+#savebtn{
+    position: relative;
+    left: 232px;
+}
+body{
+    background-color: #1d1e1f;
+    color: white;
+}
+
+.textinimg {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
