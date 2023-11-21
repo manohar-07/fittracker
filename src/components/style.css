@@ -1,6 +1,19 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+
 .container1 {
     position: relative;
     display: inline-block;
+}
+#img1{
+    display: flex;
+    height: 95vh;
+    width: 45vw;
+}
+
+#formhead{
+    text-align: center;
+    /* display: inline-block; */
 }
 
 .container1 img {
@@ -14,10 +27,13 @@
     cursor: pointer;
 }
 #form{
+    padding: 20px;
     max-width: 500px;
     border: 2px solid #f69b10;
     border-radius: 7px;
     color: white;
+    display: inline-block;
+    margin-left: 10vw;
 }
 #workout > .form-control{
     background-color: #2b2f32;

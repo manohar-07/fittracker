@@ -1,0 +1,17 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("C:\Users\manoh\Documents\web project\fitttracker\frontend\public\w5.jpg") no-repeat center center fixed;
+    background-size:cover;
+    }
+.hometext{
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+#welcome{
+    font-size: 65px;
+}
+p{
+    font-size: 20px;
+}
