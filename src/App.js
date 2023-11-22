@@ -7,13 +7,13 @@ import React from "react";
 import About from'./components/About'
 import Register from './components/Register';
 import Profile from './components/Profile';
-
+import Home from './components/Home';
 import {
   BrowserRouter as Router,
   Route,
   Routes
 } from "react-router-dom";
-import Home from './components/Home';
+
 
 
 
